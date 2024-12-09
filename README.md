@@ -18,7 +18,8 @@ This portfolio contains various sections including an information, a showcase of
 ## How to Run
 1. Clone this repository.
    ```
-   git clone [https://github.com/newplace2drown/digital-portfolio.git]
+   git clone https://github.com/newplace2drown/digital-portfolio.git
+   
 # License
 
 MIT License
