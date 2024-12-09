@@ -1,12 +1,12 @@
 # Digital Portfolio
 
-Welcome to my digital portfolio! This project showcases my skills, projects, and personal achievements in the digital space. It's a simple, minimalist, and responsive design created with HTML, CSS, and JavaScript.
+Welcome to my digital portfolio! This project showcases my skills, and projects, in the digital space. It's a simple, minimalist, and responsive design created with HTML, CSS, and JavaScript.
 
 ## Description
-This portfolio contains various sections including an "About Me" page, a showcase of my work, and a contact form for inquiries. It is designed to be easy to navigate and responsive on both mobile and desktop devices.
+This portfolio contains various sections including an information, a showcase of my work, and a contact form for inquiries. It is designed to be easy to navigate and responsive on both mobile and desktop devices.
 
 ## Features
-- **About Me Section**: Learn more about my background and skills.
+- **Information Section**: Learn more about my background and skills.
 - **Showcase of Work**: View my digital projects and accomplishments.
 - **Contact Form**: Get in touch with me directly.
 
@@ -18,12 +18,12 @@ This portfolio contains various sections including an "About Me" page, a showcas
 ## How to Run
 1. Clone this repository.
    ```
-   git clone https://github.com/username/digital-portfolio.git
+   git clone [https://github.com/newplace2drown/digital-portfolio.git]
 # License
 
 MIT License
 
-Copyright (c) 2024 Aditya Akbar Prasetyanto
+Copyright (c) 2024 newplace2drown
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
