@@ -10,6 +10,6 @@
 - **Contact Form**: you can in touch with me directly.
 
 ## Tolls Used
-- **HTML**: For the structure of the project.
-- **CSS**: To style and make the website responsive.
+- **HTML**: for the structure of the project.
+- **CSS**: to style and make the website responsive.
 - **JavaScript**: for interactive elements.
