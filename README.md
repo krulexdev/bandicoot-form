@@ -1,21 +1,15 @@
-# Digital Portfolio
+# about project
+ This is an application of my foundational knowledge in HTML, CSS, and JavaScript."
 
-Welcome to my digital portfolio! This project showcases my skills, and projects, in the digital space. It's a simple, minimalist, and responsive design created with HTML, CSS, and JavaScript.
+## description
+so, essentially, i aim to create a simple website where i can manage content and design, while integrating it with various platforms, particularly google search console, analytics, and optimizing the website. although it's currently just a landing page, i'm very happy about it and plan to develop it further. cheers!
 
-## Description
-This portfolio contains various sections including an information, a showcase of my work, and a contact form for inquiries. It is designed to be easy to navigate and responsive on both mobile and desktop devices.
+## features
+- **Information Section**: fill with my background and skills.
+- **Showcase of Work**: a small basic design that i made on Behance previously.
+- **Contact Form**: you can in touch with me directly.
 
-## Features
-- **Information Section**: Learn more about my background and skills.
-- **Showcase of Work**: View my digital projects and accomplishments.
-- **Contact Form**: Get in touch with me directly.
-
-## Technologies Used
-- **HTML**: For the structure of the portfolio.
+## Tolls Used
+- **HTML**: For the structure of the project.
 - **CSS**: To style and make the website responsive.
-- **JavaScript**: For interactive elements.
-
-## How to Run
-1. Clone this repository.
-   ```
-   git clone https://github.com/newplace2drown/digital-portfolio.git
+- **JavaScript**: for interactive elements.
