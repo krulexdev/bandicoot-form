@@ -348,7 +348,7 @@ img {
 
 .home__title {
 
-  font-size: var(--big-font-size);
+  font-size: var(--medium-font-size);
 
   margin-bottom: var(--mb-5);
 
@@ -449,20 +449,6 @@ img {
 .about__subtitle {
 
   margin-bottom: var(--mb-2);
-
-}
-
-.about__img {
-
-  justify-self: center;
-
-}
-
-.about__img img {
-
-  width: 200px;
-
-  border-radius: 0.5rem;
 
 }
 
@@ -871,12 +857,6 @@ img {
   .about__container {
 
     padding-top: 2rem;
-
-  }
-
-  .about__img img {
-
-    width: 300px;
 
   }
 
