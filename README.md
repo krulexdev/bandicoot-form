@@ -1,8 +1,8 @@
 # about project
- This is an application of my foundational knowledge in HTML, CSS, and JavaScript."
+- This is an application of my foundational knowledge in HTML, CSS, and JavaScript."
 
 ## description
-so, essentially, i aim to create a simple website where i can manage content and design, while integrating it with various platforms, particularly google search console, analytics, and optimizing the website. although it's currently just a landing page, i'm very happy about it and plan to develop it further. cheers!
+- so, basically, i aim to create a simple website where i can manage content and design, while integrating it with various platforms, particularly google search console, analytics, and optimizing the website. although it's currently just a landing page, i'm very happy about it and plan to develop it further. cheers!
 
 ## features
 - **Information Section**: fill with my background and skills.
