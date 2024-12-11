@@ -16,7 +16,7 @@
   --first-color: hsl(134 89%, 60%);
   --second-color: hsl(224 56%, 12%);
   /*===== Typography =====*/
-  --body-font: "Trap", sans-serif;
+  --body-font: 'Trap', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
