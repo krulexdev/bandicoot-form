@@ -224,7 +224,7 @@ img {
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  color: var(--second-color);
+  color: hsl(224, 56%, 15%);
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
