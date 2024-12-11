@@ -340,7 +340,19 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
-  font-color: var(--second-color);
+  background-color: hsl(134, 89%, 60%);
+  color: hsl(224, 56%, 12%);
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  
+}
+.contact__button:hover {
+  background-color: hsl(124, 89%, 55%);
+  color: #fff;
+  
 }
 
 /* ===== FOOTER =====*/
