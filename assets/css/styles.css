@@ -348,9 +348,23 @@ img {
 
 .home__title {
 
-  font-size: var(--medium-font-size);
+  :root {
+  --medium-font-size: 2rem;
+  --mb-5: 1rem;
+}
 
-  margin-bottom: var(--mb-5);
+@media screen and (min-width: 768px) {
+  :root {
+    --medium-font-size: 3rem;
+    --mb-5: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --medium-font-size: 4rem;
+    --mb-5: 3rem;
+  }
 
 }
 
