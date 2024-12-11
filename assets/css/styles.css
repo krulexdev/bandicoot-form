@@ -1,5 +1,10 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@font-face {
+  font-family: 'Trap';
+  src: url('path/to/Trap-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -11,7 +16,7 @@
   --first-color: hsl(134 89%, 60%);
   --second-color: hsl(224 56%, 12%);
   /*===== Typography =====*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Trap", sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
