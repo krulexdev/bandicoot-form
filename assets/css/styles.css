@@ -438,15 +438,6 @@ img {
 
 /* ===== ABOUT =====*/
 
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  margin: 0 auto;
-}
-
 .about__container {
   display: grid;
   place-items: center;
