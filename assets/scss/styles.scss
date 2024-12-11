@@ -391,9 +391,13 @@ img{
     padding: 2rem 0;
 
     &__logo-img{
+    display: block;
     width: 120px; 
     height: auto;
     margin-bottom: var(--mb-4);
+    margin-left: auto;
+    margin-right: auto;
+        
     }
     &__social{
         margin-bottom: var(--mb-4);
