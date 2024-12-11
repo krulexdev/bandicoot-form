@@ -109,6 +109,8 @@ img{
     left: 0;
     z-index: var(--z-fixed);
     background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
