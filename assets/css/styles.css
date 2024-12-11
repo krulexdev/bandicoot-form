@@ -340,6 +340,7 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+  font-color: var(--second-color);
 }
 
 /* ===== FOOTER =====*/
