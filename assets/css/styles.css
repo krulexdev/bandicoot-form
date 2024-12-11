@@ -73,6 +73,13 @@ img {
 .nav__logo img {
   width: 150px;
   height: 50px;
+}
+/* Ukuran untuk mobile */
+@media screen and (max-width: 768px) {
+    .nav__logo img {
+        width: 120px;
+        height: auto;
+    }
 
 }
 
