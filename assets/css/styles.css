@@ -439,15 +439,31 @@ img {
 /* ===== ABOUT =====*/
 
 .about__container {
-  display: grid;
-  place-items: center;
+
   row-gap: 2rem;
+
   text-align: center;
+
 }
 
 .about__subtitle {
+
   margin-bottom: var(--mb-2);
-  
+
+}
+
+.about__img {
+
+  justify-self: center;
+
+}
+
+.about__img img {
+
+  width: 200px;
+
+  border-radius: 0.5rem;
+
 }
 
 /* ===== SKILLS =====*/
