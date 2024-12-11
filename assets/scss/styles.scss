@@ -1,4 +1,4 @@
-/*===== LOCAL FONTS =====*/
+/*===== FONTS =====*/
 @font-face {
   font-family: 'Trap';
   src: url('assets/fonts/Trap-Regular.otf') format('opentype');
@@ -19,7 +19,7 @@
     --second-color: hsl(220 56%, 12%);
 
     /*===== Typography =====*/
-    --body-font: 'Trap', sans-serif;
+    --body-font: "Trap", sans-serif;
 
     --big-font-size: 2rem;
     --h2-font-size: 1.25rem;
