@@ -375,8 +375,8 @@ img {
   padding: 2rem 0;
 }
 .footer__logo-img {
-  width: auto; 
-  height: 50px;
+  width: 100; 
+  height: auto;
   margin-bottom: var(--mb-4);
 }
 .footer__social {
