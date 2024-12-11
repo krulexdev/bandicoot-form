@@ -375,9 +375,8 @@ img {
   padding: 2rem 0;
 }
 .footer__logo-img {
-  display: block;
-  width: 100px; 
-  height: 50px;
+  width: 120px; 
+  height: auto;
   margin: 0 auto;
   margin-bottom: var(--mb-4);
 }
