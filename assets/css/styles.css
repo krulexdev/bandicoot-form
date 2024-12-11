@@ -376,8 +376,9 @@ img {
 }
 .footer__logo-img {
   display: block;
-  width: 120px; 
-  height: auto;
+  width: auto; 
+  height: 50px;
+  margin: 0 auto;
   margin-bottom: var(--mb-4);
 }
 .footer__social {
