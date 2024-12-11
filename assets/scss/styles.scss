@@ -391,8 +391,9 @@ img{
     padding: 2rem 0;
 
     &__title{
-        font-size: 2rem;
-        margin-bottom: var(--mb-4);
+    width: auto; 
+    height: 50px;
+    margin-bottom: var(--mb-4);
     }
     &__social{
         margin-bottom: var(--mb-4);
