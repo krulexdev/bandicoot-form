@@ -1,5 +1,5 @@
 /*===== FONTS =====*/
-@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+@import url('https://fonts.cdnfonts.com/css/malinton-trial-version');
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -12,7 +12,7 @@
   --first-color: hsl(134 89%, 60%);
   --second-color: hsl(224 56%, 12%);
   /*===== Typography =====*/
-  --body-font: 'Font Awesome 6 Free', sans-serif;
+  --body-font: 'Malinton Trial Version, sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
