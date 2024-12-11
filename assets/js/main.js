@@ -1,97 +1,67 @@
-/*===== MENU SHOW =====*/ 
+/*===== MENU TOGGLE =====*/ 
 
-const showMenu = (toggleId, navId) =>{
+const showMenu = (toggleId, navId) => {
+    const toggle = document.getElementById(toggleId);
+    const nav = document.getElementById(navId);
 
-    const toggle = document.getElementById(toggleId),
-
-    nav = document.getElementById(navId)
-
-    if(toggle && nav){
-
-        toggle.addEventListener('click', ()=>{
-
-            nav.classList.toggle('show')
-
-        })
-
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
     }
+};
 
-}
+// Initialize menu toggle
+showMenu('nav-toggle', 'nav-menu');
 
-showMenu('nav-toggle','nav-menu')
+/*==================== REMOVE MENU ON MOBILE ====================*/
 
-/*==================== REMOVE MENU MOBILE ====================*/
+const navLinks = document.querySelectorAll('.nav__link');
 
-const navLink = document.querySelectorAll('.nav__link')
+const closeMenu = () => {
+    const navMenu = document.getElementById('nav-menu');
+    navMenu.classList.remove('show');
+};
 
-function linkAction(){
-
-    const navMenu = document.getElementById('nav-menu')
-
-    // When we click on each nav__link, we remove the show-menu class
-
-    navMenu.classList.remove('show')
-
-}
-
-navLink.forEach(n => n.addEventListener('click', linkAction))
+// Add event listener to each nav link to close menu on mobile
+navLinks.forEach(link => link.addEventListener('click', closeMenu));
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
-const sections = document.querySelectorAll('section[id]')
+const sections = document.querySelectorAll('section[id]');
 
-const scrollActive = () =>{
+const highlightActiveSection = () => {
+    const scrollPosition = window.scrollY;
 
-    const scrollDown = window.scrollY
+    sections.forEach(section => {
+        const sectionHeight = section.offsetHeight;
+        const sectionTop = section.offsetTop - 58;
+        const sectionId = section.getAttribute('id');
+        const sectionLink = document.querySelector(`.nav__menu a[href*=${sectionId}]`);
 
-  sections.forEach(current =>{
+        if (scrollPosition > sectionTop && scrollPosition <= sectionTop + sectionHeight) {
+            sectionLink.classList.add('active-link');
+        } else {
+            sectionLink.classList.remove('active-link');
+        }
+    });
+};
 
-        const sectionHeight = current.offsetHeight,
-
-              sectionTop = current.offsetTop - 58,
-
-              sectionId = current.getAttribute('id'),
-
-              sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
-
-        
-
-        if(scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight){
-
-            sectionsClass.classList.add('active-link')
-
-        }else{
-
-            sectionsClass.classList.remove('active-link')
-
-        }                                                    
-
-    })
-
-}
-
-window.addEventListener('scroll', scrollActive)
+// Add scroll event to highlight active link
+window.addEventListener('scroll', highlightActiveSection);
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 
 const sr = ScrollReveal({
-
     origin: 'top',
-
     distance: '60px',
-
     duration: 2000,
-
     delay: 200,
-
-//     reset: true
-
+    // reset: true, // Uncomment if you want the animation to trigger each time the section comes into view
 });
 
-sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
-
-sr.reveal('.home__social-icon',{ interval: 200}); 
-
-sr.reveal('.skills__data, .showcase__img, .contact__input',{interval: 200}); 
+// Apply ScrollReveal for specific elements
+sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text');
+sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img', { delay: 400 });
+sr.reveal('.home__social-icon', { interval: 200 });
+sr.reveal('.skills__data, .showcase__img, .contact__input', { interval: 200 });
