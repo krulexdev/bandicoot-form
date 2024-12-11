@@ -390,9 +390,10 @@ img{
     font-weight: var(--font-semi);
     padding: 2rem 0;
 
-    &__title{
-    width: 100px; 
+    &__logo-img{
+    width: 50px; 
     height: auto;
+    margin: 0 auto;
     margin-bottom: var(--mb-4);
     }
     &__social{
