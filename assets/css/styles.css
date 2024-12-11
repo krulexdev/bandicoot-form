@@ -377,7 +377,6 @@ img {
 .footer__logo-img {
   width: 120px; 
   height: auto;
-  margin: 0 auto;
   margin-bottom: var(--mb-4);
 }
 .footer__social {
