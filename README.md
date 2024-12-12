@@ -11,4 +11,3 @@
 - **CSS**: To style and make the website responsive.🎨
 - **JavaScript**: For interactive elements.🧠
 - **SCSS**: For advanced styling with variables, mixins, and nesting.🧑🏻‍💻
-- 
