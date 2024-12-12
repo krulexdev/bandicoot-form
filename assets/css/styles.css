@@ -225,6 +225,7 @@ img {
 }
 .home__blob {
   fill: var(--first-color);
+  transform: translate(0, -50px);
 }
 .home__blob-img {
   width: 360px;
