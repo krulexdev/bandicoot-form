@@ -226,6 +226,7 @@ img{
     }
     &__blob{
         fill: var(--first-color);
+        transform: translate(0, -50px);
 
         &-img{
             width: 360px;
