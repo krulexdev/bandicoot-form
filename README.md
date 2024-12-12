@@ -1,5 +1,5 @@
 ## Description
-- Camelphase is a project that integrates digital tools for efficient web management.🚀
+- Building a single-page web and utilizing Google Search Console, Google Tag Manager, and Formspree to enhance SEO, track performance, and manage contact forms seamlessly.🚀
   
 ## Features
 - **Google Search Console**: Monitors search performance and analyzes SEO data.🔍
