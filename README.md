@@ -1,6 +1,6 @@
 ## Description
-- This is an application of my foundational knowledge in HTML, CSS, and JavaScript.🚀
-
+- Camelphase is a project that integrates digital tools for efficient web management.🚀
+  
 ## Features
 - **Google Search Console**: Monitors search performance and analyzes SEO data.🔍
 - **Google Tag Manager**: Efficiently manages tags without changing site code.⚙️
