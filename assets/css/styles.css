@@ -246,6 +246,9 @@ img {
   color: #fff;
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
+.button:focus {
+  outline: none;
+}
 
 /* ===== ABOUT =====*/
 .about__container {
