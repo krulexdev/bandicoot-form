@@ -226,6 +226,15 @@ img {
 .home__blob {
   fill: var(--first-color);
   transform: translate(0, -50px);
+  animation: rotateBlob 5s linear infinite;
+    }
+
+    @keyframes rotateBlob {
+        0% {
+            transform: rotate(0deg) translate(0, -50px);
+        }
+        100% {
+            transform: rotate(360deg
 }
 .home__blob-img {
   width: 360px;
