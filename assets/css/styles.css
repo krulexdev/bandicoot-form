@@ -142,7 +142,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: #B20710;
+    background-color: #E50914;
     transition: 0.5s;
   }
 }
@@ -151,7 +151,7 @@ img {
 }
 .nav__link {
   position: relative;
-  color: #000;
+  color: #fff;
 }
 .nav__link:hover {
   position: relative;
@@ -182,7 +182,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: #E50914;
+  background-color: #fff;
 }
 
 /*=== Show menu ===*/
