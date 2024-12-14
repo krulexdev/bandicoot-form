@@ -288,12 +288,9 @@ img {
   margin-bottom: var(--mb-2);
   color: #000;
 }
-.skills__title-text {
-  color: #000;
-}
 .skills__text {
   margin-bottom: var(--mb-4);
-  font-color: #fff;
+  font-color: #000;
 }
 .skills__data {
   display: flex;
