@@ -48,8 +48,8 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: #e5073d;
-  background-color: #0d152a;
+  color: #1f58f1;
+  background-color: #fff;
 }
 
 h1, h2, p {
@@ -82,7 +82,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: #e5073d;
+  color: #000;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -96,7 +96,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: #0d152a;
+  background-color: #fff;
 }
 
 .section {
@@ -167,7 +167,7 @@ img {
   background-color: #fff;
 }
 .nav__logo {
-  color: #e5073d;
+  color: #fff;
 }
 .nav__toggle {
   color: #fff;
