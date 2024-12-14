@@ -8,9 +8,9 @@
   /*===== Color =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 348;
-  --first-color: hsl(348, 93%, 47%);
-  --second-color: hsl(227, 48%, 10%);
+  --hue-color: 217;
+  --first-color: hsl(217, 88%, 57%);
+  --second-color: hsl(160, 85%, 85%);
   /*===== Typography =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -82,7 +82,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: #000;
+  color: #1f58f1;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -102,7 +102,7 @@ img {
 .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
-  background-color: #0d152a;
+  background-color: #fff;
 }
 
 /*===== LAYOUT =====*/
@@ -204,6 +204,7 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  color: #000;
 }
 .home__title-color {
   color: #20eca2;
@@ -216,7 +217,7 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: #1f58f1;
+  color: #000;
 }
 .home__social-icon:hover {
   color: #20eca2;
@@ -264,7 +265,7 @@ img {
 }
 .about__subtitle {
   margin-bottom: var(--mb-2);
-  color: #20eca2;
+  color: #000;
 }
 .about__img {
   justify-self: center;
@@ -282,7 +283,7 @@ img {
 }
 .skills__subtitle {
   margin-bottom: var(--mb-2);
-  color: #20eca2;
+  color: #000;
 }
 .skills__text {
   margin-bottom: var(--mb-4);
