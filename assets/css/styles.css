@@ -124,13 +124,7 @@ img {
   border-bottom-right-radius: 15px;
   box-shadow: 0 2px 4px rgba(146, 161, 176, 0.15);
   overflow: hidden;
-}
-.header__logo {
-  object-fit: contain;
-  margin-left: -20px;
-}
-@media (max-width: 767px) {
-    margin-left: -15px;
+  
 }
 
 /*===== NAV =====*/
