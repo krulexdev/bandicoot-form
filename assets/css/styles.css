@@ -133,7 +133,7 @@ img {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
-  color: #fff;
+  color: #000;
 }
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -167,10 +167,10 @@ img {
   background-color: #fff;
 }
 .nav__logo {
-  color: #fff;
+  color: #000;
 }
 .nav__toggle {
-  color: #fff;
+  color: #000;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -267,6 +267,9 @@ img {
   margin-bottom: var(--mb-2);
   color: #000;
 }
+.about__text {
+  color: #000;
+}
 .about__img {
   justify-self: center;
 }
@@ -360,7 +363,7 @@ img {
   font-weight: var(--font-semi);
   padding: 1rem;
   border-radius: 0.5rem;
-  border: 1.5px solid var(--second-color);
+  border: 1.5px solid #1f58f1;
   outline: none;
   margin-bottom: var(--mb-4);
   background-color: #fff;
@@ -427,7 +430,7 @@ img {
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
-    background-color: #0d152a;
+    background-color: #fff;
   }
   .home__social {
     padding-top: 0;
@@ -500,7 +503,7 @@ img {
     display: none;
   }
   .nav__link {
-    color: #fff;
+    color: #1f58f1;
   }
   .home {
     padding: 8rem 0 2rem;
