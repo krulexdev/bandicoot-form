@@ -51,6 +51,7 @@ body{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
+    background-color: #000;
 }
 h1,h2,p{
     margin: 0;  
@@ -98,6 +99,7 @@ img{
 .section{
     padding-top: 3rem;
     padding-bottom: 2rem;
+    background-color: #000;
 }
 
 /*===== LAYOUT =====*/
