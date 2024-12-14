@@ -227,8 +227,7 @@ img{
     &__blob {
         fill: var(--first-color);
         transform: translate(0, -50px);
-        animation: rotateBlob 5s linear infinite;
-        transform-origin: center;
+        
     }
     &_img {
         width: 360px;
