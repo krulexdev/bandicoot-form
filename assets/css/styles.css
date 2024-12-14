@@ -142,7 +142,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: #574ce3;
     transition: 0.5s;
   }
 }
@@ -420,6 +420,7 @@ img {
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
+    background-color: #574ce3;
   }
   .home__social {
     padding-top: 0;
@@ -439,16 +440,19 @@ img {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     text-align: initial;
+    background-color: #000;
   }
   .skills__container {
     grid-template-columns: 0.7fr;
     justify-content: center;
     column-gap: 1rem;
+    background-color: #000;
   }
   .work__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
+    background-color: #000;
   }
   .contact__form {
     width: 360px;
@@ -456,6 +460,7 @@ img {
   }
   .contact__container {
     justify-items: center;
+    background-color: #000;
   }
 }
 @media screen and (min-width: 768px) {
