@@ -73,7 +73,7 @@ img {
 }
   /*styling logo*/
 .nav__logo img {
-  width: auto;
+  width: -20px;
   height: 50px;
 
 }
