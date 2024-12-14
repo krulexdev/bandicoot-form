@@ -7,11 +7,11 @@
   --header-height: 3rem;
 
   /* Colors */
-  --primary-color: #e63946; /* Merah utama */
-  --secondary-color: #a8dadc; /* Biru pastel */
-  --background-color: #1d3557; /* Biru tua */
-  --text-color: #f1faee; /* Putih pucat */
-  --accent-color: #457b9d; /* Biru terang */
+  --primary-color: #e63946;
+  --secondary-color: #a8dadc;
+  --background-color: #1d3557;
+  --text-color: #f1faee;
+  --accent-color: #457b9d;
 
   /* Typography */
   --font-family: "Poppins", sans-serif;
