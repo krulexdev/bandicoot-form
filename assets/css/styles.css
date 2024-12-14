@@ -10,7 +10,7 @@
   /* HSL color mode */
   --hue-color: 6;
   --first-color: hsl(6 81%, 56%);
-  --second-color: hsl(224 56%, 12%);
+  --second-color: hsl(0 0%, 100%);
   /*===== Typography =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -365,8 +365,8 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
-  background-color: hsl(134, 89%, 60%);
-  color: hsl(224, 56%, 12%);
+  background-color: var(--first-color);
+  color: var(--second-color);
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   text-transform: normal;
@@ -375,7 +375,7 @@ img {
   
 }
 .contact__button:hover {
-  background-color: hsl(224, 56%, 15%);
+  background-color: var(--second-color);
   color: #fff;
   
 }
