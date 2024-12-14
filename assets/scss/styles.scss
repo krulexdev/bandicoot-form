@@ -234,21 +234,12 @@ img{
         width: 360px;
     }
     
-    @keyframes rotateBlob {
-  0% {
-    transform: rotate(0deg) translate(0, -50px) scale(1);
-  }
-  25% {
-    transform: rotate(90deg) translate(-10px, -40px) scale(1.1);
+@keyframes morphBlob {
+  0%, 100% {
+    d: path("M250 50 C220 90, 200 120, 250 150 C300 120, 280 90, 250 50");
   }
   50% {
-    transform: rotate(180deg) translate(0, -50px) scale(0.9);
-  }
-  75% {
-    transform: rotate(270deg) translate(10px, -60px) scale(1.05);
-  }
-  100% {
-    transform: rotate(360deg) translate(0, -50px) scale(1);
+    d: path("M250 50 C280 120, 220 140, 250 180 C300 160, 250 90, 280 60");
   }
 }
 
