@@ -142,7 +142,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: #e5073d;
+    background-color: #0d152a;
     transition: 0.5s;
   }
 }
@@ -163,13 +163,13 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: #0d152a;
+  background-color: #e5073d;
 }
 .nav__logo {
   color: #fff;
 }
 .nav__toggle {
-  color: #0d152a;
+  color: #fff;
   font-size: 1.5rem;
   cursor: pointer;
 }
