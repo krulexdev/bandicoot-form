@@ -73,8 +73,9 @@ img {
 }
   /*styling logo*/
 .nav__logo img {
-  width: -20px;
+  width: auto;
   height: 50px;
+  margin-left: -10px;
 
 }
 
