@@ -231,15 +231,6 @@ img {
   transform-origin: center;
 }
 
-@keyframes morphBlob {
-  0%, 100% {
-    d: path("M250 50 C220 90, 200 120, 250 150 C300 120, 280 90, 250 50");
-  }
-  50% {
-    d: path("M250 50 C280 120, 220 140, 250 180 C300 160, 250 90, 280 60");
-  }
-}
-
 .home__blob-img {
   width: 360px; 
 }
