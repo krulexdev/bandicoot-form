@@ -18,13 +18,7 @@
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
   --smaller-font-size: 0.75rem;
-}
-
-/*===== BODY FONT TEST =====*/
-body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  color: var(--first-color);
+  
 }
   /*===== Margin =====*/
   --mb-2: 1rem;
