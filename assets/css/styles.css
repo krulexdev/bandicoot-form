@@ -1,10 +1,5 @@
 /*===== FONTS =====*/
-@font-face {
-  font-family: 'London Bridge';
-  src: url('assets/fonts/London-Bridge-Font-Family.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;600;700&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -18,7 +13,7 @@
   --second-color: hsl(160, 85%, 85%);
 
   /*===== Typography =====*/
-  --body-font: "London Bridge", sans-serif;
+  --body-font: "Anek Latin", sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
