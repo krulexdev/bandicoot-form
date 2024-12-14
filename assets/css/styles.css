@@ -125,6 +125,10 @@ img {
   box-shadow: 0 2px 4px rgba(146, 161, 176, 0.15);
   overflow: hidden;
 }
+  .header__logo {
+  object-fit: contain;
+  margin-left: -20px;
+}
 
 /*===== NAV =====*/
 .nav {
