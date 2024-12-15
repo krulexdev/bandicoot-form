@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root{
@@ -9,12 +9,12 @@
     /*===== Color =====*/
     /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
     /* HSL color mode */
-    --hue-color: 134;
-    --first-color: hsl(134 89%, 60%);
-    --second-color: hsl(220 56%, 12%);
+    --hue-color: 217;
+    --first-color: hsl(217, 88%, 57%);
+    --second-color: hsl(160 85%, 85%);
 
     /*===== Typography =====*/
-    --body-font: "Nunito", sans-serif;
+    --body-font: 'Nunito', sans-serif;
 
     --big-font-size: 2rem;
     --h2-font-size: 1.25rem;
@@ -30,7 +30,7 @@
     /*===== z index =====*/
     --z-back: -10;
     --z-fixed: 100;
-}
+
     @media screen and (min-width: 968px){
         --big-font-size: 3.5rem;
         --h2-font-size: 2rem;
