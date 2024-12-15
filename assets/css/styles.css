@@ -1,41 +1,37 @@
-/*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+==== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
   --font-semi: 600;
-
   /*===== Color =====*/
-  /* Purple 260 - Red 355 - Blue 224 - Pink 340 */
+  /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
+  /* HSL color mode */
   --hue-color: 217;
   --first-color: hsl(217, 88%, 57%);
   --second-color: hsl(160, 85%, 85%);
-
   /*===== Typography =====*/
   --body-font: "Nunito", sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
-  --normal-font-size: 0.938rem;
-  --smaller-font-size: 0.75rem;
-
+  --normal-font-size: .938rem;
+  --smaller-font-size: .75rem;
   /*===== Margin =====*/
   --mb-2: 1rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
-
   /*===== z index =====*/
   --z-back: -10;
   --z-fixed: 100;
 }
-
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
-    --smaller-font-size: 0.875rem;
+    --smaller-font-size: .875rem;
   }
 }
 
