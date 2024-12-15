@@ -232,9 +232,7 @@ img {
 .home__blob {
   fill: var(--first-color);
   transform: translate(0, -50px);
- 
 }
-
 .home__blob-img {
   width: 360px; 
 }
@@ -338,8 +336,8 @@ img {
 }
 .skills__img {
   border-radius: 0.5rem;
-  position: relative;
-  align-items: center;
+  justify-self: center;
+  width: 200px;
 }
 
 /*===== WORK =====*/
