@@ -338,6 +338,8 @@ img {
 }
 .skills__img {
   border-radius: 0.5rem;
+  position: relative;
+  align-items: center;
 }
 
 /*===== WORK =====*/
