@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root{
@@ -69,7 +69,7 @@ img{
     height: auto;
     display: block;
 }
-    .nav__logo img {
+.nav__logo img {
     width: auto;
     height: 50px;
 
@@ -254,7 +254,7 @@ img{
     }
 }
 
-/* ===== ABOUT =====*/
+/*===== ABOUT =====*/
 .about{
     &__container{
         row-gap: 2rem;
@@ -276,7 +276,7 @@ img{
     }
 }
 
-/* ===== SKILLS =====*/
+/*===== SKILLS =====*/
 .skills{
     &__container{
         row-gap: 2rem;
@@ -336,7 +336,7 @@ img{
         border-radius: .5rem;
     }
 }
-/* ===== WORK =====*/
+/*===== WORK =====*/
 .work{
     &__container{
         row-gap: 2rem;
@@ -357,7 +357,7 @@ img{
     }
 }
 
-/* ===== CONTACT =====*/
+/*===== CONTACT =====*/
 .contact{
     &__input{
         width: 100%;
@@ -393,7 +393,7 @@ img{
     }
 }
 
-/* ===== FOOTER =====*/
+/*===== FOOTER =====*/
 .footer{
     background-color: #000;
     color: #fff;
@@ -423,7 +423,7 @@ img{
     }
 }
 
-/* ===== MEDIA QUERIES=====*/
+/*===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px){
     .home{
         row-gap: 2rem;
