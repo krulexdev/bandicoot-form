@@ -258,7 +258,7 @@ img {
   outline: none;
 }
 
-/* ===== ABOUT =====*/
+/*===== ABOUT =====*/
 .about__container {
   row-gap: 2rem;
   text-align: center;
@@ -279,7 +279,7 @@ img {
   border-radius: 0.5rem;
 }
 
-/* ===== SKILLS =====*/
+/*===== SKILLS =====*/
 .skills__container {
   row-gap: 2rem;
   text-align: center;
@@ -340,7 +340,7 @@ img {
   border-radius: 0.5rem;
 }
 
-/* ===== WORK =====*/
+/*===== WORK =====*/
 .work__container {
   row-gap: 2rem;
   background-color: #fff;
@@ -357,7 +357,7 @@ img {
   transform: scale(1.1);
 }
 
-/* ===== CONTACT =====*/
+/*===== CONTACT =====*/
 .contact__input {
   width: 100%;
   font-size: var(--normal-font-size);
@@ -391,7 +391,7 @@ img {
   
 }
 
-/* ===== FOOTER =====*/
+/*===== FOOTER =====*/
 .footer {
   background-color: #000;
   color: #fff;
@@ -419,7 +419,7 @@ img {
   font-size: var(--smaller-font-size);
 }
 
-/* ===== MEDIA QUERIES=====*/
+/*===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {
     row-gap: 2rem;
