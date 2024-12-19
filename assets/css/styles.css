@@ -82,7 +82,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: #1f58f1;
+  color: #f29f58;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
