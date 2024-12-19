@@ -315,7 +315,7 @@ img {
 }
 .skills__icon {
   font-size: 1.5rem;
-  color: #000;
+  color: #fff;
   margin-right: 1rem;
 }
 .skills__check {
@@ -412,7 +412,7 @@ img {
 }
 .footer__icon {
   font-size: 1.5rem;
-  color: #161616;
+  color: #f29f58;
   margin: 0 var(--mb-2);
 }
 .footer__copy {
