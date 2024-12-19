@@ -26,16 +26,17 @@
     function gtag() 
     { dataLayer.push(arguments); }
     gtag('js', new Date());
+
+    gtag('set', 'consent', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied'
+    });
     
- if (window.CookiePal.getConsent('analytics') && window.CookiePal.getConsent('ads')) {
+if (window.CookiePal.getConsent('analytics') && window.CookiePal.getConsent('ads')) 
+{
         gtag('set', 'consent', {
             analytics_storage: 'granted',
             ad_storage: 'granted'
-        });
-    } else {
-        gtag('set', 'consent', {
-            analytics_storage: 'denied',
-            ad_storage: 'denied'
         });
     }
     gtag('config', 'G-PQ4X8XE68B', { anonymize_ip: true });
