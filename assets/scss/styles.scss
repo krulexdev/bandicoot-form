@@ -79,7 +79,7 @@ img{
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
-    color: #000;
+    color: #f29f58;
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-4);
     text-align: center;
@@ -93,7 +93,7 @@ img{
         right: 0;
         margin: auto;
         top: 2rem;
-        background-color: #1f58f1;
+        background-color: #f29f58;
     }
 }
 .section{
@@ -213,10 +213,10 @@ img{
             width: max-content;
             margin-bottom: var(--mb-2);
             font-size: 1.5rem;
-            color: #1f58f1;
+            color: #fff;
 
             &:hover{
-                color: #20eca2;
+                color: #161616;
             }
         }
     }
@@ -305,7 +305,7 @@ img{
     &__icon{
         font-size: 2rem;
         margin-right: var(--mb-2);
-        color: #000;
+        color: #fff;
     }
     &__names{
         display: flex;
@@ -315,7 +315,7 @@ img{
         position: absolute;
         left: 0;
         bottom: 0;
-        background-color: var(--first-color);
+        background-color: #161616;
         height: .25rem;
         border-radius: .5rem;
         z-index: var(--z-back);
@@ -365,7 +365,7 @@ img{
         font-weight: var(--font-semi);
         padding: 1rem;
         border-radius: .5rem;
-        border: 1.5px solid #e5073d;
+        border: 1.5px solid #f29f58;
         outline: none;
         margin-bottom: var(--mb-4);
         background-color: #fff;
@@ -377,7 +377,7 @@ img{
     font-size: var(--normal-font-size);
     cursor: pointer;
     margin-left: auto;
-    background-color: #1f58f1;
+    background-color: #f29f58;
     color: #fff;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
@@ -387,15 +387,15 @@ img{
 }
 
 &__button:hover {
-    background-color: #20eca2;
-    color: #000;
+    background-color: #161616;
+    color: #fff;
     
     }
 }
 
 /*===== FOOTER =====*/
 .footer{
-    background-color: #000;
+    background-color: #161616;
     color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
