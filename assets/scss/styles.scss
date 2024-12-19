@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root{
@@ -9,12 +9,12 @@
     /*===== Color =====*/
     /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
     /* HSL color mode */
-    --hue-color: 217;
-    --first-color: hsl(217, 88%, 57%);
-    --second-color: hsl(160 85%, 85%);
+    --hue-color: 30.7;
+    --first-color: hsl(30.7, 85.5%, 64.7%);
+    --second-color: hsl(0, 0, 8.6%);
 
     /*===== Typography =====*/
-    --body-font: 'Nunito', sans-serif;
+    --body-font: 'Poppins', sans-serif;
 
     --big-font-size: 2rem;
     --h2-font-size: 1.25rem;
@@ -50,7 +50,7 @@ body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    color: #1f58f1;
+    color: #f29f58;
     background-color: #fff;
 }
 h1,h2,p{
@@ -138,7 +138,7 @@ img{
             width: 80%;
             height: 100%;
             padding: 2rem;
-            background-color: #1f58f1;
+            background-color: #161616;
             transition: .5s;
         }
     }
@@ -159,12 +159,12 @@ img{
                 height: 0.18rem;
                 left: 0;
                 top: 2rem;
-                background-color: #20eca2;
+                background-color: #f29f58;
             }
         }
     }
     &__logo{
-        color: #e5073d);
+        color: #161616);
     }
     &__toggle{
         color: #fff;
@@ -180,7 +180,7 @@ img{
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: #20eca2;
+    background-color: #f29f58;
 }
 
 /*=== Show menu ===*/
