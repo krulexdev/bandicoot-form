@@ -34,9 +34,9 @@ const scrollActive = () =>{
               sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
         
         if(scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight){
-            sectionsClass.classList.add('active-link')
+            sectionsClass?.classList.add('active-link')
         }else{
-            sectionsClass.classList.remove('active-link')
+            sectionsClass?.classList.remove('active-link')
         }                                                    
     })
 }
@@ -51,7 +51,7 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
-sr.reveal('.home__data, .about__img,{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text,{delay: 400}); 
+sr.reveal('.home__data, .about__img, .about__subtitle, .about__text',{}); 
+sr.reveal('.home__img, .quote__data, .section__text',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.quote__data, .work__img, .support__input',{interval: 200}); 
+sr.reveal('.work__img, .contact__input',{interval: 200});
