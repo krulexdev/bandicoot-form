@@ -350,7 +350,7 @@ img {
 }
 
 /*===== SUPPORT =====*/
-.donate__input {
+.support__input {
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -364,13 +364,13 @@ img {
   transition: all 0.3s ease;
 }
 
-.donate__input:focus {
+.support__input:focus {
   border-color: #4E4FEB;
   background-color: #000;
   color: #EEEEEE;
 }
 
-.donate__button {
+.support__button {
   display: block;
   border: none;
   outline: none;
@@ -379,21 +379,20 @@ img {
   margin-left: auto;
   background-color: #4E4FEB;
   color: #EEEEEE;
-  padding: 0.75rem 1.5rem;
-  border-radius: 5px;
+  padding: 1rem;
+  border-radius: 0.5rem;
   text-transform: normal;
   font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 0 5px 10px rgba(242, 159, 88, 0.3);
 }
 
-.donate__button:hover {
+.support__button:hover {
   background-color: #068FFF
   color: #000;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.donate__description {
+.support__description {
   font-size: var(--small-font-size);
   font-weight: var(--font-light);
   color: #EEEEEE;
@@ -401,7 +400,7 @@ img {
   text-align: center;
 }
 
-.donate__container {
+.support__container {
   display: flex;
   flex-direction: column;
   align-items: center;
