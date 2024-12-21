@@ -9,9 +9,9 @@
     /*===== Color =====*/
     /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
     /* HSL color mode */
-    --hue-color: 30.7;
-    --first-color: hsl(30.7, 85.5%, 64.7%);
-    --second-color: hsl(0, 0, 8.6%);
+    --hue-color: 239;
+    --first-color: hsl(239.62, 61.37%, 79.70%);
+    --second-color: hsl(206.99, 51.18%, 100%);
 
     /*===== Typography =====*/
     --body-font: 'Poppins', sans-serif;
@@ -50,8 +50,8 @@ body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    color: #f29f58;
-    background-color: #fff;
+    color: #4E4FEB;
+    background-color: #000;
 }
 h1,h2,p{
     margin: 0;  
@@ -79,7 +79,7 @@ img{
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
-    color: #f29f58;
+    color: #4E4FEB;
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-4);
     text-align: center;
@@ -93,7 +93,7 @@ img{
         right: 0;
         margin: auto;
         top: 2rem;
-        background-color: #fff;
+        background-color: #000;
     }
 }
 .section{
@@ -115,7 +115,7 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #fff;
+    background-color: #000;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
@@ -129,7 +129,7 @@ img{
     justify-content: space-between;
     align-items: center;
     font-weight: var(--font-semi);
-    color: #f29f58;
+    color: #4E4FEB;
 
     &__menu{
         @media screen and (max-width: 767px){
@@ -139,7 +139,7 @@ img{
             width: 80%;
             height: 100%;
             padding: 2rem;
-            background-color: #161616;
+            background-color: #000;
             transition: .5s;
         }
     }
@@ -148,7 +148,7 @@ img{
     }
     &__link{
         position: relative;
-        color: #fff;
+        color: #4E4FEB;
 
         &:hover{
             position: relative;
@@ -160,15 +160,15 @@ img{
                 height: 0.18rem;
                 left: 0;
                 top: 2rem;
-                background-color: #f29f58;
+                background-color: #068FFF;
             }
         }
     }
     &__logo{
-        color: #161616);
+        color: #EEEEEE;
     }
     &__toggle{
-        color: #fff;
+        color: #4E4FEB;
         font-size: 1.5rem;
         cursor: pointer;
     }
@@ -181,7 +181,7 @@ img{
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: #f29f58;
+    background-color: #068FFF;
 }
 
 /*=== Show menu ===*/
@@ -194,7 +194,7 @@ img{
     position: relative;
     row-gap: 5rem;
     padding: 4rem 0 5rem;
-    background-color: #fff;
+    background-color: #000;
 
     &__data{
         align-self: center;
@@ -204,7 +204,7 @@ img{
         margin-bottom: var(--mb-5);
 
         &-color{
-            color: #000;
+            color: #EEEEEE;
         }
     }
     &__social{
@@ -214,10 +214,10 @@ img{
             width: max-content;
             margin-bottom: var(--mb-2);
             font-size: 1.5rem;
-            color: #fff;
+            color: #4E4FEB;
 
             &:hover{
-                color: #161616;
+                color: #068FFF;
             }
         }
     }
@@ -241,15 +241,15 @@ img{
 /*BUTTONS*/
 .button{
     display: inline-block;
-    background-color: #1f58f1;
-    color: #fff;
+    background-color: #4E4FEB;
+    color: #EEEEEE;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: .5rem; 
     transition: .3s;
 
     &:hover{
-        background-color: #20eca2;
+        background-color: #068FFF;
         color: #000;
         box-shadow: 0px 10px 36px rgba(0,0,0,.15);
     }
@@ -260,11 +260,11 @@ img{
     &__container{
         row-gap: 2rem;
         text-align: center;
-        background-color: #fff;
+        background-color: #000;
     }
     &__subtitle{
         margin-bottom: var(--mb-2);
-        color: #000;
+        color: #068FFF;
     }
 
     &__img{
@@ -282,15 +282,15 @@ img{
     &__container{
         row-gap: 2rem;
         text-align: center;
-        background-color: #fff;
+        background-color: #000;
     }
     &__subtitle{
         margin-bottom: var(--mb-2);
-        color: #000;
+        color: #068FFF;
     }
     &__text{
         margin-bottom: var(--mb-4);
-        color: #000;
+        color: #EEEEEE;
     }
     &__data{
         display: flex;
@@ -306,7 +306,7 @@ img{
     &__icon{
         font-size: 2rem;
         margin-right: var(--mb-2);
-        color: #fff;
+        color: #EEEEEE;
     }
     &__names{
         display: flex;
@@ -316,7 +316,7 @@ img{
         position: absolute;
         left: 0;
         bottom: 0;
-        background-color: #161616;
+        background-color: #4E4FEB;
         height: .25rem;
         border-radius: .5rem;
         z-index: var(--z-back);
@@ -341,7 +341,7 @@ img{
 .work{
     &__container{
         row-gap: 2rem;
-        background-color: #fff;
+        background-color: #000;
     }
     &__img{
         box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); 
@@ -366,10 +366,10 @@ img{
         font-weight: var(--font-semi);
         padding: 1rem;
         border-radius: .5rem;
-        border: 1.5px solid #f29f58;
+        border: 1.5px solid #4E4FEB;
         outline: none;
         margin-bottom: var(--mb-4);
-        background-color: #fff;
+        background-color: #000;
     }
     &__button {
     display: block;
@@ -378,8 +378,8 @@ img{
     font-size: var(--normal-font-size);
     cursor: pointer;
     margin-left: auto;
-    background-color: #f29f58;
-    color: #fff;
+    background-color: #4E4FEB;
+    color: #EEEEEE;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     text-transform: normal;
@@ -388,16 +388,16 @@ img{
 }
 
 &__button:hover {
-    background-color: #161616;
-    color: #fff;
+    background-color: #068FFF;
+    color: #000;
     
     }
 }
 
 /*===== FOOTER =====*/
 .footer{
-    background-color: #161616;
-    color: #fff;
+    background-color: #000;
+    color: #EEEEEE;
     text-align: center;
     font-weight: var(--font-semi);
     padding: 2rem 0;
@@ -416,7 +416,7 @@ img{
     }
     &__icon{
         font-size: 1.5rem;
-        color: #fff;
+        color: #EEEEEE;
         margin: 0 var(--mb-2);
     }
     &__copy{
