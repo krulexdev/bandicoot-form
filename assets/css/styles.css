@@ -268,13 +268,6 @@ img {
 .about__text {
   color: #000;
 }
-.about__img {
-  justify-self: center;
-}
-.about__img img {
-  width: 200px;
-  border-radius: 0.5rem;
-}
 
 /*===== SKILLS =====*/
 .skills__container {
