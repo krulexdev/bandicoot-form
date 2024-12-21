@@ -82,7 +82,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: #f29f58;
+  color: #4E4FEB;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -396,7 +396,7 @@ img {
 .donate__description {
   font-size: var(--small-font-size);
   font-weight: var(--font-light);
-  color: #068FFF;
+  color: #EEEEEE;
   margin-bottom: var(--mb-4);
   text-align: center;
 }
