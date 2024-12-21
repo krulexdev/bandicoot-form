@@ -261,7 +261,10 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  text-color: #EEEEEE;
+
+}
+.bandicoot-form__text {
+  color: #EEEEEE;
   
 }
 .separator {
@@ -428,7 +431,7 @@ img {
     text-align: center;
     background-color: #000;
   }
-  .skills__container {
+  .bandicoot-form__container {
     grid-template-columns: 0.7fr;
     justify-content: center;
     column-gap: 1rem;
@@ -494,7 +497,7 @@ img {
   .about__img img {
     width: 300px;
   }
-  .skills__container {
+  .bandicoot-form__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     align-items: center;
