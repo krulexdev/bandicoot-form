@@ -266,7 +266,7 @@ img {
   color: #068FFF;
 }
 .about__text {
-  color: #068FFF;
+  color: #EEEEEE;
 }
 
 /*===== SKILLS =====*/
@@ -281,7 +281,7 @@ img {
 }
 .skills__text {
   margin-bottom: var(--mb-4);
-  color: #068FFF;
+  color: #EEEEEE;
 }
 .skills__data {
   display: flex;
@@ -312,7 +312,7 @@ img {
 }
 .skills__check {
   font-size: 1.5rem;
-  color: #4E4FEB;
+  color: #068FFF;
 }
 .skills__Deadline Ninja {
   width: 95%;
@@ -356,7 +356,7 @@ img {
   font-weight: var(--font-semi);
   padding: 1rem;
   border-radius: 0.5rem;
-  border: 1.5px solid #f29f58;
+  border: 1.5px solid #4E4FEB;
   outline: none;
   margin-bottom: var(--mb-4);
   background-color: #000;
@@ -367,7 +367,7 @@ img {
 .donate__input:focus {
   border-color: #4E4FEB;
   background-color: #000;
-  color: #068FFF;
+  color: #EEEEEE;
 }
 
 .donate__button {
