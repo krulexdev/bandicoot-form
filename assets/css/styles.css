@@ -474,7 +474,6 @@ img {
   .skills__container {
     grid-template-columns: 0.7fr;
     justify-content: center;
-    justify-items: center;
     column-gap: 1rem;
     background-color: #000;
   }
@@ -542,6 +541,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     align-items: center;
+    justify-content: center;
     text-align: center;
   }
   .work__container {
