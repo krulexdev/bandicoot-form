@@ -269,7 +269,7 @@ img {
 }
 .separator {
   width: 5%;
-  height: 0 auto;
+  height: 1px;
   background-color: #EEEEEE;
   margin: 1rem auto;
   
