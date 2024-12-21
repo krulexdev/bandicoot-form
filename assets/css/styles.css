@@ -265,13 +265,13 @@ img {
 }
 .bandicoot-form__text {
   color: #EEEEEE;
-  
+
 }
 .separator {
-  width: 5%;
+  width: 50%;
   height: 1px;
   background-color: #EEEEEE;
-  margin: 2rem auto;
+  margin: 1rem auto;
   
 }
 .quote__data {
@@ -286,6 +286,7 @@ img {
   text-align: center;
   font-style: italic;
   color: #EEEEEE;
+  margin-top: 1rem;
   
 }
 .quote__author, .quote__book {
