@@ -356,8 +356,8 @@ img {
   transform: scale(1.1);
 }
 
-/*===== CONTACT =====*/
-.contact__input {
+/*===== DONATE =====*/
+.donate__input {
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -366,9 +366,18 @@ img {
   border: 1.5px solid #f29f58;
   outline: none;
   margin-bottom: var(--mb-4);
-  background-color: #fff;
+  background-color: #121212;
+  color: #fff;
+  transition: all 0.3s ease;
 }
-.contact__button {
+
+.donate__input:focus {
+  border-color: #f29f58;
+  background-color: #1e1e1e;
+  color: #f29f58;
+}
+
+.donate__button {
   display: block;
   border: none;
   outline: none;
@@ -376,18 +385,35 @@ img {
   cursor: pointer;
   margin-left: auto;
   background-color: #f29f58;
-  color: #fff;
+  color: #121212;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   text-transform: normal;
   font-weight: 600;
   transition: all 0.3s ease;
-  
+  box-shadow: 0 5px 10px rgba(242, 159, 88, 0.3);
 }
-.contact__button:hover {
-  background-color: #161616;
-  color: #fff;
-  
+
+.donate__button:hover {
+  background-color: #121212;
+  color: #f29f58;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.donate__description {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-light);
+  color: #f29f58;
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+
+.donate__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 /*===== FOOTER =====*/
