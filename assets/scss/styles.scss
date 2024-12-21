@@ -458,7 +458,7 @@ img{
     .about__container{
         grid-template-columns: repeat(2,1fr);
         align-items: center;
-        text-align: initial;
+        text-align: center;
     }
 
     .skills__container{
@@ -542,7 +542,7 @@ img{
         grid-template-columns: repeat(2,1fr);
         column-gap: 2rem;
         align-items: center;
-        text-align: initial;
+        text-align: center;
     }
     .work__container{
         grid-template-columns: repeat(3,1fr);
