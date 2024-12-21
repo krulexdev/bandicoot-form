@@ -239,7 +239,7 @@ img {
   display: inline-block;
   background-color: #068FFF;
   color: #000000;
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 1.5rem;
   font-weight: var(--font-semi);
   border: 1.5px solid #068FFF;
   border-radius: 0.5rem;
