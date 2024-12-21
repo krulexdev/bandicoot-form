@@ -376,10 +376,10 @@ img {
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  margin: 0 auto;
   background-color: #4E4FEB;
   color: #EEEEEE;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   text-transform: normal;
   font-weight: 600;
