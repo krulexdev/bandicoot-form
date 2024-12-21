@@ -277,14 +277,14 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   
 }
 .section__text {
   text-align: center;
   font-style: italic;
   color: #EEEEEE;
-  margin-top: 1rem;
+  margin-top: 2rem;
   
 }
 .quote__author, .quote__book {
