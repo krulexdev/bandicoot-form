@@ -329,7 +329,7 @@ img {
 .stuff__author, .stuff__book {
   color: #EEEEEE;
   font-weight: bold;
-  margin-left: 0.5rem;
+  margin-left: 0 auto;
 }
 
 .stuff__author {
