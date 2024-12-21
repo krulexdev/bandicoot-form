@@ -356,7 +356,7 @@ img {
   transform: scale(1.1);
 }
 
-/*===== DONATE =====*/
+/*===== SUPPORT =====*/
 .donate__input {
   width: 100%;
   font-size: var(--normal-font-size);
@@ -490,11 +490,11 @@ img {
     padding-top: 2rem;
     background-color: #fff;
   }
-  .contact__form {
+  .support__form {
     width: 360px;
     padding-top: 2rem;
   }
-  .contact__container {
+  .support__container {
     justify-items: center;
     background-color: #fff;
   }
