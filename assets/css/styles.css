@@ -153,7 +153,7 @@ img {
 }
 .nav__link {
   position: relative;
-  color: #068FFF;
+  color: #EEEEEE;
 }
 .nav__link:hover {
   position: relative;
@@ -165,13 +165,13 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: #EEEEEE;
+  background-color: #068FFF;
 }
 .nav__logo {
-  color: #EEEEEE;
+  color: #068FFF;
 }
 .nav__toggle {
-  color: #068FFF;
+  color: #EEEEEE;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -265,7 +265,7 @@ img {
   
 }
 .separator {
-  width: 10%;
+  width: 5%;
   height: 1px;
   background-color: #EEEEEE;
   margin: 2rem auto;
@@ -479,7 +479,7 @@ img {
     display: none;
   }
   .nav__link {
-    color: #068FFF;
+    color: #EEEEEE;
   }
   .home {
     padding: 8rem 0 2rem;
