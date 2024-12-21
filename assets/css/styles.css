@@ -269,7 +269,7 @@ img {
 }
 .separator {
   width: 5%;
-  height: 1px;
+  height: 0 auto;
   background-color: #EEEEEE;
   margin: 2rem auto;
   
@@ -288,7 +288,7 @@ img {
   
 }
 .quote__author, .quote__book {
-  font-weight: bold;
+  font-weight: normal;
   color: #068FFF;
   
 }
