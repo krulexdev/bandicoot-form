@@ -120,8 +120,6 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: #000000;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
   box-shadow: 0 2px 4px rgba(146, 161, 176, 0.15);
   overflow: hidden;
   
@@ -184,7 +182,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: #EEEEEE;
+  background-color: #068FFF;
 }
 
 /*=== Show menu ===*/
@@ -268,10 +266,10 @@ img {
 
 }
 .separator {
-  width: 50%;
+  width: 5%;
   height: 1px;
   background-color: #EEEEEE;
-  margin: 1rem auto;
+  margin: 2rem auto;
   
 }
 .quote__data {
@@ -279,7 +277,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   
 }
 .section__text {
