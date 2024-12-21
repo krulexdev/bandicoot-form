@@ -332,11 +332,6 @@ img {
 .skills__Meme Curator{
   width: 85%;
 }
-.skills__img {
-  border-radius: 0.5rem;
-  justify-self: center;
-  width: 200px;
-}
 
 /*===== WORK =====*/
 .work__container {
