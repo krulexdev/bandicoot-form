@@ -279,7 +279,6 @@ img {
 .skills__container {
   row-gap: 2rem;
   text-align: center;
-  place-items: center;
   background-color: #000;
 }
 .skills__subtitle {
@@ -548,6 +547,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     align-items: center;
+    justify-items: center;
     text-align: center;
   }
   .work__container {
