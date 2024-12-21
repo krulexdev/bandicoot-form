@@ -261,13 +261,14 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
+  text-color: #EEEEEE;
   
 }
 .separator {
-  width: 50%;
+  width: 10%;
   height: 1px;
   background-color: #EEEEEE;
-  margin: 2rem 0;
+  margin: 2rem auto;
   
 }
 .quote__data {
