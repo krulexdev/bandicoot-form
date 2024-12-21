@@ -261,24 +261,32 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
+  
 }
-
+.separator {
+  width: 50%;
+  height: 1px;
+  background-color: #EEEEEE;
+  margin: 2rem 0;
+  
+}
 .quote__data {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  
 }
-
 .section__text {
   text-align: center;
   font-style: italic;
   color: #EEEEEE;
+  
 }
-
 .quote__author, .quote__book {
   font-weight: bold;
   color: #068FFF;
+  
 }
 
 /*===== WORKZILLA =====*/
