@@ -48,7 +48,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: #068FFF;
+  color: #FFFFFF;
   background-color: #000;
 }
 
@@ -82,7 +82,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: #068FFF;
+  color: #FFFFFF;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -132,7 +132,7 @@ img {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
-  color: #068FFF;
+  color: #FFFFFF;
 }
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -151,7 +151,7 @@ img {
 }
 .nav__link {
   position: relative;
-  color: #EEEEEE;
+  color: #FFFFFF;
 }
 .nav__link:hover {
   position: relative;
@@ -163,13 +163,13 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: #068FFF;
+  background-color: #FFFFFF;
 }
 .nav__logo {
-  color: #068FFF;
+  color: #FFFFFF;
 }
 .nav__toggle {
-  color: #EEEEEE;
+  color: #FFFFFF;
   font-size: 2rem;
   cursor: pointer;
 }
@@ -203,7 +203,7 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
-  color: #EEEEEE;
+  color: #FFFFFF;
 }
 .home__title-color {
   color: #068FFF;
@@ -216,7 +216,7 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: #068FFF;
+  color: #FFFFFF;
 }
 .home__social-icon:hover {
   color: #068FFF;
@@ -266,13 +266,13 @@ img {
 
 }
 .bandicoot-form__text {
-  color: #EEEEEE;
+  color: #FFFFFF;
 
 }
 .separator {
   width: 5%;
   height: 1px;
-  background-color: #EEEEEE;
+  background-color: #FFFFFF;
   margin: 3rem auto;
   
 }
@@ -288,7 +288,7 @@ img {
 .section__text {
   text-align: center;
   font-style: italic;
-  color: #EEEEEE;
+  color: #FFFFFF;
   margin-top: 0rem;
   padding: 0;
   
@@ -334,7 +334,7 @@ img {
 .support__input:focus {
   border-color: #068FFF;
   background-color: #000;
-  color: #EEEEEE;
+  color: #FFFFFF;
 }
 
 .support__button {
@@ -362,7 +362,7 @@ img {
 .support__description {
   font-size: var(--small-font-size);
   font-weight: var(--font-light);
-  color: #EEEEEE;
+  color: #FFFFFF;
   margin-bottom: var(--mb-4);
   text-align: center;
   
@@ -379,7 +379,7 @@ img {
 /*===== FOOTER =====*/
 .footer {
   background-color: #000;
-  color: #EEEEEE;
+  color: #FFFFFF;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -397,7 +397,7 @@ img {
 }
 .footer__icon {
   font-size: 1.5rem;
-  color: #068FFF;
+  color: #FFFFFF;
   margin: 0 var(--mb-2);
 }
 .footer__copy {
@@ -489,7 +489,7 @@ img {
     display: none;
   }
   .nav__link {
-    color: #EEEEEE;
+    color: #FFFFFF;
   }
   .home {
     padding: 8rem 0 2rem;
