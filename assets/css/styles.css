@@ -203,7 +203,7 @@ img {
   
 }
 .home__title {
-  font-size: var(-big-font-size);
+  font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
   color: #FFFFFF;
   
@@ -279,7 +279,7 @@ img {
 }
 .bandicoot-form__text {
   color: #FFFFFF;
-  font-size: var(-normal-font-size);
+  font-size: var(--h2-font-size);
 
 }
 .separator {
@@ -304,7 +304,7 @@ img {
   color: #FFFFFF;
   margin-top: 0rem;
   padding: 0;
-  font-size: var(-normal-font-size);
+  font-size: var(--h2-font-size);
   
 }
 .quote__author, .quote__book {
@@ -334,7 +334,7 @@ img {
 /*===== SUPPORT =====*/
 .support__input {
   width: 100%;
-  font-size: var(-normal-font-size;
+  font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
   padding: 1rem;
   border-radius: 0.5rem;
@@ -376,7 +376,7 @@ img {
   
 }
 .support__description {
-  font-size: var(-normal-font-size);
+  font-size: var(--h2-font-size);
   font-weight: var(--font-light);
   color: #FFFFFF;
   margin-bottom: var(--mb-4);
