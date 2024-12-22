@@ -123,7 +123,7 @@ img{
 }
 
 /*===== NAV =====*/
-.nav{
+.nav {
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -131,8 +131,36 @@ img{
     font-weight: var(--font-semi);
     color: #FFFFFF;
 
-    &__menu{
-        @media screen and (max-width: 767px){
+    &__toggle {
+        color: #FFFFFF;
+        font-size: 2rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+
+        .bx-menu {
+            display: block;
+        }
+
+        .bx-x {
+            display: none;
+        }
+
+        &.active {
+            .bx-menu {
+                display: none; 
+            }
+
+            .bx-x {
+                display: block; 
+            }
+        }
+    }
+
+    &__menu {
+        @media screen and (max-width: 767px) {
             position: fixed;
             top: var(--header-height);
             right: -100%;
@@ -140,20 +168,24 @@ img{
             height: 100%;
             padding: 2rem;
             background-color: #000;
-            transition: .5s;
+            transition: 0.5s;
+        }
+
+        &.show {
+            right: 0;
         }
     }
-    &__item{
+
+    &__item {
         margin-bottom: var(--mb-4);
     }
-    &__link{
+
+    &__link {
         position: relative;
         color: #FFFFFF;
 
-        &:hover{
-            position: relative;
-
-            &::after{
+        &:hover {
+            &::after {
                 position: absolute;
                 content: '';
                 width: 100%;
@@ -164,17 +196,12 @@ img{
             }
         }
     }
-    &__logo{
+
+    &__logo {
         color: #EEEEEE;
     }
-    &__toggle{
-        color: #FFFFFF;
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
 }
-/*Active menu*/
-.active-link::after{
+.active-link::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -184,8 +211,7 @@ img{
     background-color: #FFFFFF;
 }
 
-/*=== Show menu ===*/
-.show{
+.show {
     right: 0;
 }
 
