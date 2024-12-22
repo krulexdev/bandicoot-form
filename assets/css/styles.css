@@ -28,9 +28,9 @@
 }
 @media screen and (min-width: 968px) {
   :root {
-    --big-font-size: 2rem;
-    --h2-font-size: 1.5rem;
-    --normal-font-size: .940rem;
+    --big-font-size: 1rem;
+    --h2-font-size: 1rem;
+    --normal-font-size: .900rem;
     --smaller-font-size: .85rem;
   }
 }
