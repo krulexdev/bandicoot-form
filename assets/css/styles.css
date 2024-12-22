@@ -313,8 +313,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  row-gap: 1rem;
   text-align: center;
+  font-size: var(--h2-font-size);
 }
 
 .bandicoot-form__text {
@@ -326,7 +326,7 @@ img {
   width: 5%;
   height: 1px;
   background-color: #FFFFFF;
-  margin: 2rem auto;
+  margin: 1rem auto;
   align-self: center;
 }
 
@@ -335,7 +335,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  row-gap: 1rem;
   text-align: center;
 }
 
@@ -378,20 +377,6 @@ img {
 }
 
 /*===== SUPPORT =====*/
-.support__input {
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1.5px solid #068FFF;
-  outline: none;
-  margin-bottom: var(--mb-4);
-  background-color: #000;
-  color: #068FFF;
-  transition: all 0.3s ease;
-}
-
 .support__input:focus {
   border-color: #068FFF;
   background-color: #000;
@@ -402,7 +387,7 @@ img {
   display: block;
   border: 2px solid #FFFFFF;
   outline: none;
-  font-size: 1rem;
+  font-size: var(--normal-font-size);
   cursor: pointer;
   margin: 0 auto;
   background-color: transparent;
