@@ -129,7 +129,7 @@ img{
     justify-content: space-between;
     align-items: center;
     font-weight: var(--font-semi);
-    color: #4E4FEB;
+    color: #FFFFFF;
 
     &__menu{
         @media screen and (max-width: 767px){
@@ -148,7 +148,7 @@ img{
     }
     &__link{
         position: relative;
-        color: #4E4FEB;
+        color: #FFFFFF;
 
         &:hover{
             position: relative;
@@ -160,7 +160,7 @@ img{
                 height: 0.18rem;
                 left: 0;
                 top: 2rem;
-                background-color: #068FFF;
+                background-color: #FFFFFF;
             }
         }
     }
@@ -168,7 +168,7 @@ img{
         color: #EEEEEE;
     }
     &__toggle{
-        color: #4E4FEB;
+        color: #FFFFFF;
         font-size: 1.5rem;
         cursor: pointer;
     }
@@ -181,7 +181,7 @@ img{
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: #068FFF;
+    background-color: #FFFFFF;
 }
 
 /*=== Show menu ===*/
