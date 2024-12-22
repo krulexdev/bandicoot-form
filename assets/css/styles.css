@@ -1,5 +1,5 @@
 /*==== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;600;700&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -12,7 +12,7 @@
   --first-color: hsl(239.62, 61.37%, 79.70%);
   --second-color: hsl(206.99, 51.18%, 100%);
   /*===== Typography =====*/
-  --body-font: "Montserrat", sans-serif;
+  --body-font: 'Roboto', sans-serif;
   --big-font-size: 2.5rem;
   --h2-font-size: 1.7rem;
   --normal-font-size: 1.5rem;
