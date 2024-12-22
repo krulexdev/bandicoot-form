@@ -193,6 +193,11 @@ img{
                 left: 0;
                 top: 2rem;
                 background-color: #FFFFFF;
+            &:focus,
+            &:active {
+            outline: none;
+            color: inherit; 
+            txt-decoration: none; 
             }
         }
     }
