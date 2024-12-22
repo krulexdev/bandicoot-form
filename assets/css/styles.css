@@ -250,6 +250,7 @@ img {
   background-color: transparent;
   color: #ffffff;
   padding: 0.6rem 1.5rem;
+  font-size: 1rem;
   font-weight: var(--font-light);
   border: 1.5px solid #FFFFFF;
   border-radius: 0rem;
@@ -354,7 +355,7 @@ img {
   display: block;
   border: 2px solid #FFFFFF;
   outline: none;
-  font-size: var(--normal-font-size);
+  font-size: 1rem;
   cursor: pointer;
   margin: 0 auto;
   background-color: transparent;
