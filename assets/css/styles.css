@@ -120,7 +120,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: rgba(0, 0, 0, 0.8);;
-  box-shadow: 0 2px 7px rgba(50, 50, 50, 0.5);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   
 }
@@ -183,7 +183,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: #068FFF;
+  background-color: #FFFFFF;
 }
 
 /*=== Show menu ===*/
