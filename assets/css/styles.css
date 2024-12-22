@@ -119,7 +119,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: rgba(0, 0, 0, 0);;
+  background-color: rgba(0, 0, 0, 1);;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   
@@ -320,6 +320,7 @@ img {
 }
 .bandicoot-form__text {
   color: #FFFFFF;
+  text-align: center;
 
 }
 .separator {
@@ -347,7 +348,7 @@ img {
   
 }
 .quote__author, .quote__book {
-  font-weight: bold;
+  font-weight: normal;
   color: #DCDCDC;
   
 }
