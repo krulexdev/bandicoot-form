@@ -310,6 +310,9 @@ img {
   
 /* Bandicoot Form Section */
 .bandicoot-form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
   row-gap: 2rem;
   text-align: center;
 }
@@ -324,11 +327,14 @@ img {
   height: 1px;
   background-color: #FFFFFF;
   margin: 4rem auto;
-  align-items: center;
+  align-self: center;
 }
 
 /* Quote Form Section */
 .quote-form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
   row-gap: 2rem;
   text-align: center;
 }
@@ -337,12 +343,20 @@ img {
   font-style: italic;
   color: #FFFFFF;
   margin-bottom: var(--mb-2);
-  
 }
+
 .quote__author,
 .quote__book {
   font-weight: normal;
   color: #DCDCDC;
+  text-align: center;
+}
+@media (min-width: 768px) { 
+  .bandicoot-form__container,
+  .quote-form__container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 
 /*===== WORKZILLA =====*/
