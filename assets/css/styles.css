@@ -310,7 +310,7 @@ img {
   
 }
 
-/*===== BANDICOOT FORM =====*/
+/*===== ABOUT =====*/
 .bandicoot-form__container {
   display: flex;
   justify-content: center;
@@ -328,6 +328,15 @@ img {
   height: 1px;
   background-color: #FFFFFF;
   margin: 3rem auto;
+}
+@media screen and (min-width: 768px) {
+  .bandicoot-form__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
   
 }
 .quote__data {
