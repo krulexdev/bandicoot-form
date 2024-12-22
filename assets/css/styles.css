@@ -13,10 +13,10 @@
   --second-color: hsl(206.99, 51.18%, 100%);
   /*===== Typography =====*/
   --body-font: "Montserrat", sans-serif;
-  --big-font-size: 2.5rem;
-  --h2-font-size: 1.5rem;
-  --normal-font-size: .950rem;
-  --smaller-font-size: .90rem;
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: .938rem;
+  --smaller-font-size: .75rem;
   /*===== Margin =====*/
   --mb-2: 1rem;
   --mb-4: 2rem;
@@ -201,7 +201,7 @@ img {
   align-self: center;
 }
 .home__title {
-  font-size: var(--big-font-size);
+  font-size: 2.5rem;
   margin-bottom: var(--mb-5);
   color: #FFFFFF;
 }
@@ -267,6 +267,7 @@ img {
 }
 .bandicoot-form__text {
   color: #FFFFFF;
+  font-size: 1.5rem;
 
 }
 .separator {
@@ -291,11 +292,12 @@ img {
   color: #FFFFFF;
   margin-top: 0rem;
   padding: 0;
+  font-size: 1.5rem;
   
 }
 .quote__author, .quote__book {
   font-weight: normal;
-  color: #068FFF;
+  color: #DCDCDC;
   
 }
 
@@ -303,6 +305,7 @@ img {
 .workzilla__container {
   row-gap: 2rem;
   background-color: #000;
+  font-size: 2rem;
 }
 .workzilla__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
@@ -319,7 +322,7 @@ img {
 /*===== SUPPORT =====*/
 .support__input {
   width: 100%;
-  font-size: var(--normal-font-size);
+  font-size: 2rem;
   font-weight: var(--font-semi);
   padding: 1rem;
   border-radius: 0.5rem;
@@ -360,7 +363,7 @@ img {
   
 }
 .support__description {
-  font-size: var(--small-font-size);
+  font-size: 1.5rem;
   font-weight: var(--font-light);
   color: #FFFFFF;
   margin-bottom: var(--mb-4);
@@ -401,7 +404,7 @@ img {
   margin: 0 var(--mb-2);
 }
 .footer__copy {
-  font-size: var(--smaller-font-size);
+  font-size: var(--smaller-font-size--);
 }
 
 /*===== MEDIA QUERIES=====*/
