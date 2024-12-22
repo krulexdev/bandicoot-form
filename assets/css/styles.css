@@ -28,10 +28,10 @@
 }
 @media screen and (min-width: 968px) {
   :root {
-    --big-font-size: 0.7rem;
-    --h2-font-size: 0.5em;
-    --normal-font-size: .85rem;
-    --smaller-font-size: .70rem;
+    --big-font-size: 3.5rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+    --smaller-font-size: .875rem;
   }
 }
 
@@ -203,7 +203,7 @@ img {
   
 }
 .home__title {
-  font-size: 2.5rem;
+  font-size: var(-big-font-size);
   margin-bottom: var(--mb-5);
   color: #FFFFFF;
   
@@ -279,7 +279,7 @@ img {
 }
 .bandicoot-form__text {
   color: #FFFFFF;
-  font-size: 1.5rem;
+  font-size: var(-h2-font-size);
 
 }
 .separator {
@@ -304,11 +304,11 @@ img {
   color: #FFFFFF;
   margin-top: 0rem;
   padding: 0;
-  font-size: 1.5rem;
+  font-size: var(-h2-font-size);
   
 }
 .quote__author, .quote__book {
-  font-weight: normal;
+  font-size: var(-h2-font-size);
   color: #DCDCDC;
   
 }
@@ -317,7 +317,7 @@ img {
 .workzilla__container {
   row-gap: 2rem;
   background-color: #000;
-  font-size: 2rem;
+  font-size: var(-h2-font-size);
 }
 .workzilla__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
@@ -334,7 +334,7 @@ img {
 /*===== SUPPORT =====*/
 .support__input {
   width: 100%;
-  font-size: 2rem;
+  font-size: var(-h2-font-size;
   font-weight: var(--font-semi);
   padding: 1rem;
   border-radius: 0.5rem;
@@ -376,7 +376,7 @@ img {
   
 }
 .support__description {
-  font-size: 1.5rem;
+  font-size: var(-h2-font-size);
   font-weight: var(--font-light);
   color: #FFFFFF;
   margin-bottom: var(--mb-4);
