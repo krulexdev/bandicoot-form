@@ -13,10 +13,10 @@
   --second-color: hsl(206.99, 51.18%, 100%);
   /*===== Typography =====*/
   --body-font: "Montserrat", sans-serif;
-  --big-font-size: 2rem;
-  --h2-font-size: 1.50rem;
-  --normal-font-size: .940rem;
-  --smaller-font-size: .85rem;
+  --big-font-size: 3rem;
+  --h2-font-size: 2rem;
+  --normal-font-size: .950rem;
+  --smaller-font-size: .75rem;
   /*===== Margin =====*/
   --mb-2: 1rem;
   --mb-4: 2rem;
