@@ -306,7 +306,6 @@ img {
   
 }
 .quote__author, .quote__book {
-  font-size: var(--normal-font-size);
   color: #DCDCDC;
   
 }
@@ -415,7 +414,7 @@ img {
   margin: 0 var(--mb-2);
 }
 .footer__copy {
-  font-size: var(--smaller-font-size--);
+  font-size: var(--smaller-font-size);
 }
 
 /*===== MEDIA QUERIES=====*/
