@@ -302,7 +302,7 @@ img {
   font-style: italic;
   color: #FFFFFF;
   margin-top: 0rem;
-  padding: 0;
+  padding: 0.5rem;
   
 }
 .quote__author, .quote__book {
