@@ -134,6 +134,7 @@ img {
   font-weight: var(--font-semi);
   color: #FFFFFF;
 }
+
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
@@ -146,17 +147,24 @@ img {
     background-color: #000000;
     transition: 0.5s;
   }
+  .nav__menu.active {
+    right: 0;
+  }
 }
+
 .nav__item {
   margin-bottom: var(--mb-4);
 }
+
 .nav__link {
   position: relative;
   color: #FFFFFF;
 }
+
 .nav__link:hover {
   position: relative;
 }
+
 .nav__link:hover::after {
   position: absolute;
   content: "";
@@ -166,16 +174,35 @@ img {
   top: 2rem;
   background-color: #FFFFFF;
 }
+
 .nav__logo {
   color: #FFFFFF;
 }
+
 .nav__toggle {
   color: #FFFFFF;
   font-size: 2rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.nav__toggle .bx-menu {
+  display: block;
+}
+.nav__toggle .bx-x {
+  display: none;
+}
+.nav__toggle.active .bx-menu {
+  display: none;
 }
 
-/*Active menu*/
+.nav__toggle.active .bx-x {
+  display: block;
+}
+
+/* Active menu */
 .active-link::after {
   position: absolute;
   content: "";
