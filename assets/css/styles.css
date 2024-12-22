@@ -306,7 +306,7 @@ img {
   
 }
 .quote__author, .quote__book {
-  font-size: var(-normal-font-size);
+  font-size: var(--normal-font-size);
   color: #DCDCDC;
   
 }
