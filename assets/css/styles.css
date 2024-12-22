@@ -319,14 +319,14 @@ img {
 
 .bandicoot-form__text {
   color: #FFFFFF;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1);
 }
 
 .separator {
   width: 5%;
   height: 1px;
   background-color: #FFFFFF;
-  margin: 4rem auto;
+  margin: 2rem auto;
   align-self: center;
 }
 
@@ -342,7 +342,7 @@ img {
 .section__text {
   font-style: italic;
   color: #FFFFFF;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1);
 }
 
 .quote__author,
