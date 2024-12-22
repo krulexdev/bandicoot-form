@@ -308,8 +308,6 @@ img {
   color: inherit;
 }
   
-}
-
 /* Bandicoot Form Section */
 .bandicoot-form__container {
   row-gap: 2rem;
@@ -325,7 +323,8 @@ img {
   width: 5%;
   height: 1px;
   background-color: #FFFFFF;
-  margin: var(--mb-4) auto;
+  margin: 4rem auto;
+  align-items: center;
 }
 
 /* Quote Form Section */
@@ -338,8 +337,8 @@ img {
   font-style: italic;
   color: #FFFFFF;
   margin-bottom: var(--mb-2);
+  
 }
-
 .quote__author,
 .quote__book {
   font-weight: normal;
