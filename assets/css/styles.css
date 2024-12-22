@@ -29,8 +29,8 @@
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 2.5rem;
-    --h2-font-size: 1.7rem;
-    --normal-font-size: 0.9rem;
+    --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
   }
 }
@@ -306,6 +306,7 @@ img {
   
 }
 .quote__author, .quote__book {
+  font-weight: bold;
   color: #DCDCDC;
   
 }
