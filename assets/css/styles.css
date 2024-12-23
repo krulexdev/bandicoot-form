@@ -289,7 +289,7 @@ img {
   color: #ffffff;
   padding: 0.6rem 1.5rem;
   font-size: 1rem;
-  font-weight: var(--font-light);
+  font-weight: var(--font-bold);
   border: 1.5px solid #FFFFFF;
   border-radius: 0rem;
   transition: 0.3s;
@@ -320,30 +320,34 @@ img {
 }
 
 .separator {
-  width: 5px;
-  height: 2px;
-  background-color: #FFFFFF;
+  width: auto;
+  height: auto;
+  text-align: center;
   margin: 2rem auto;
 }
+.separator i {
+  font-size: 1.5rem;
+  color: #FFFFFF;
 
+}
 /* Quote Form */
 .quote-form {
   margin-top: 2rem;
+  
 }
-
 .quote-form .section__text {
   font-style: italic;
   font-size: 1rem;
   color: #FFFFFF;
   line-height: 1.6;
   margin-bottom: 1rem;
+  
 }
-
 .quote__author {
   font-weight: bold;
   color: #DCDCDC;
+  
 }
-
 .quote__book {
   font-weight: normal;
   color: #DCDCDC;
@@ -398,17 +402,16 @@ img {
 
 .support__button {
   display: inline-block;
-  border: 2px solid #FFFFFF;
+  border: 1.5px solid #FFFFFF;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin: 1rem auto;
   background-color: transparent;
   color: #FFFFFF;
-  padding: 0.8rem 1.5rem;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: var(--font-light);
+  padding: 0.6rem 1.5rem;
+  border-radius: 0px;
+  font-weight: var(--font-bold);
   transition: all 0.3s ease;
 }
 
