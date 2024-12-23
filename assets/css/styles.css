@@ -316,6 +316,7 @@ img {
   flex-direction: column;
   align-items: center; 
   text-align: center;
+  row-gap: 2rem;
 }
 .section-title {
   margin-bottom: var(--mb-2);
@@ -333,16 +334,16 @@ img {
   flex-direction: column;
   align-items: center; 
   text-align: center;
+  row-gap: 2rem;
 }
 
 .section__text {
   font-style: italic;
   color: #FFFFFF;
-  margin-bottom: var(--mb-2);
+
 }
 
-.quote__author,
-.quote__book {
+.quote__author, .quote__book {
   font-weight: normal;
   color: #DCDCDC;
   text-align: center;
@@ -375,41 +376,53 @@ img {
 }
 
 /*===== SUPPORT =====*/
-.support__input:focus {
-  background-color: #000;
-  color: #FFFFFF;
-
+.support__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
+
 .support__description {
   font-size: var(--normal-font-size);
   font-weight: var(--font-light);
   color: #FFFFFF;
   margin-bottom: var(--mb-4);
-  text-align: center;
-  
+  line-height: 1.5;
 }
+
 .support__button {
-  display: block;
+  display: inline-block;
   border: 2px solid #FFFFFF;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin: 0 auto;
+  margin: 1rem auto;
   background-color: transparent;
   color: #FFFFFF;
-  padding: 0.5rem 1rem;
-  border-radius: 0rem;
-  text-transform: normal;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
   font-weight: var(--font-light);
   transition: all 0.3s ease;
-
 }
+
 .support__button:hover {
   background-color: transparent;
   color: #068fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   border-color: #068fff;
-  
+}
+
+@media (min-width: 768px) {
+  .support__container {
+    max-width: 800px;
+  }
 }
 
 /*===== FOOTER =====*/
@@ -439,6 +452,7 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
 }
+
 
 /*===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
