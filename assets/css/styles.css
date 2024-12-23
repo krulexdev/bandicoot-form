@@ -307,10 +307,9 @@ img {
   outline: none; 
   box-shadow: none;
   color: inherit;
-}
   
-/* Bandicoot Form Section */
-/* Bandicoot Form Section */
+}
+/* ABOUT */
 .bandicoot-form__container {
   display: flex;
   flex-direction: column;
@@ -322,14 +321,7 @@ img {
 .bandicoot-form__text {
   color: #FFFFFF;
   margin-bottom: var(--mb-2);
-}
 
-.separator {
-  width: 5%;
-  height: 1px;
-  background-color: #FFFFFF;
-  margin: 4rem auto;
-  align-self: center;
 }
 
 /* Quote Form Section */
