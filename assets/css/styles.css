@@ -314,44 +314,44 @@ img {
 .bandicoot-form__container {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  text-align: center;
-  row-gap: 2rem;
-}
-.section-title {
-  margin-bottom: var(--mb-2);
-
-
-.bandicoot-form__text {
-  color: #FFFFFF;
-  margin-bottom: var(--mb-2);
-
-}
-
-/* Quote Form Section */
-.quote-form__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
+  align-items: center;
   text-align: center;
   row-gap: 2rem;
 }
 
-.section__text {
+.separator {
+  width: 5px;
+  height: 2px;
+  background-color: #FFFFFF;
+  margin: 2rem auto;
+}
+
+/* Quote Form */
+.quote-form {
+  margin-top: 2rem;
+}
+
+.quote-form .section__text {
   font-style: italic;
+  font-size: 1rem;
   color: #FFFFFF;
-
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
-.quote__author, .quote__book {
+.quote__author {
+  font-weight: bold;
+  color: #DCDCDC;
+}
+
+.quote__book {
   font-weight: normal;
   color: #DCDCDC;
-  text-align: center;
+  margin-left: 0.5rem;
 
 }
 @media (min-width: 768px) { 
-  .bandicoot-form__container,
-  .quote-form__container {
+  .bandicoot-form__container{
     max-width: 800px;
     margin: 0 auto;
   }
