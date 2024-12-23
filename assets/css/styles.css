@@ -323,6 +323,15 @@ img {
   row-gap: 2rem;
 
 }
+.section-title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 0.5rem;
+
+}
+.bandicoot-form__text {
+  margin-top: 0.5rem;
+
+}
 .icon-container {
   text-align: center;
   margin: 2rem 0;
@@ -341,11 +350,15 @@ img {
   font-size: var(--p-font-size);
   
 }
-.quote-form .section__text {
+.quote-form {
   font-style: italic;
   color: #FFFFFF;
   line-height: 1.5;
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+
+}
+.section_text {
+  font-size: var(--p-font-size)
   
 }
 .quote__author, {
