@@ -72,8 +72,8 @@ img {
   display: block;
 }
 .nav__logo img {
-  width: auto;
-  height: 70px;
+  width: 0 auto;
+  height: 80px;
   margin-left: -15px;
 
 }
