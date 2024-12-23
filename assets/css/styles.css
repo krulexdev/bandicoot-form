@@ -356,7 +356,6 @@ img {
 }
 @media (min-width: 768px) { 
   .bandicoot-form__container{
-  .quote-form {
     max-width: 800px;
     margin: 0 auto;
   }
