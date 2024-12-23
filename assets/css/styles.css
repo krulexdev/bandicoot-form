@@ -317,14 +317,17 @@ img {
   align-items: center;
   text-align: center;
   row-gap: 2rem;
-  
+
 }
-.i {
-  font-size: 1.5rem;
-  color: #FFFFFF;
-  display: block;
+.icon-container {
   text-align: center;
   margin: 2rem 0;
+  display: block;
+  
+}
+.icon-container i {
+  font-size: 1.5rem;
+  color: #FFFFFF;
 
 }
 /* Quote Form */
