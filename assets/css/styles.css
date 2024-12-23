@@ -342,18 +342,21 @@ img {
   line-height: 1.6;
   margin-bottom: 1rem;
   text-align: center;
+
+}
+.quote__author, .quote__book {
+  display: block;
+  text-align: center;
   
 }
-.quote__author {
+.quote__author, {
   font-weight: bold;
   color: #DCDCDC;
-  text-align: center;
   
 }
 .quote__book {
   font-weight: normal;
   color: #DCDCDC;
-  text-align: center;
 
 }
 @media (min-width: 768px) { 
