@@ -325,7 +325,7 @@ img {
 }
 .section-title {
   font-size: var(--h2-font-size);
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 
 }
 .bandicoot-form__text {
@@ -336,6 +336,7 @@ img {
   text-align: center;
   margin: 2rem 0;
   display: block;
+  margin-top: 0.5rem;
   
 }
 .icon-container i {
@@ -345,16 +346,12 @@ img {
 }
 /* Quote Form */
 .quote-form {
-  margin-top: 2rem;
-  text-align: center;
-  font-size: var(--p-font-size);
-  
-}
-.quote-form {
   font-style: italic;
   color: #FFFFFF;
   line-height: 1.5;
   margin-top: 0.5rem;
+  font-size: var(--p-font-size);
+  text-align: center;
 
 }
 .section_text {
