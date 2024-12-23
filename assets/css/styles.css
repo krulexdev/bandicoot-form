@@ -333,6 +333,8 @@ img {
 /* Quote Form */
 .quote-form {
   margin-top: 2rem;
+  display: block;
+  text-align: center;
   
 }
 .quote-form .section__text {
@@ -341,12 +343,6 @@ img {
   color: #FFFFFF;
   line-height: 1.6;
   margin-bottom: 1rem;
-  text-align: center;
-
-}
-.quote__author, .quote__book {
-  display: block;
-  text-align: center;
   
 }
 .quote__author, {
