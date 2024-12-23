@@ -361,6 +361,7 @@ img {
 }
 @media (min-width: 768px) { 
   .bandicoot-form__container{
+  .quote-form .section__text {
     max-width: 800px;
     margin: 0 auto;
   }
@@ -414,7 +415,7 @@ img {
   margin: 1rem auto;
   background-color: transparent;
   color: #FFFFFF;
-  padding: 0.6rem 1.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 0px;
   font-weight: var(--font-bold);
   transition: all 0.3s ease;
