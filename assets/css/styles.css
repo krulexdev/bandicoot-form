@@ -397,7 +397,7 @@ img {
   display: block;
   border: 2px solid #FFFFFF;
   outline: none;
-  font-size: 2rem;
+  font-size: var(--normal-font-size);
   cursor: pointer;
   margin: 0 auto;
   background-color: transparent;
