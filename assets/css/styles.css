@@ -75,7 +75,6 @@ img {
   width: auto;
   height: 60px;
   margin-left: -10px;
-  object-fit: contain;
 
 }
 
@@ -187,6 +186,7 @@ img {
 
 .nav__logo {
   color: #FFFFFF;
+  width: auto;
 
 }
 
