@@ -74,7 +74,7 @@ img {
 .nav__logo img {
   width: auto;
   height: 60px;
-  margin-left: -10px;
+  margin-left: -12px;
   object-fit: contain;
 
 }
@@ -123,8 +123,7 @@ img {
   background-color: rgba(0, 0, 0, 1);;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
   overflow: hidden;
-  padding-bottom: 10px;
-  justify-content: space-between;
+  padding-bottom: 0.5px;
   
 }
 
