@@ -17,7 +17,7 @@
   --h2-font-size: 1.5rem;
   --p-font-size: 1.2rem;
   --normal-font-size: 1rem;
-  --smaller-font-size: .80rem;
+  --smaller-font-size: .75rem;
   /*===== Margin =====*/
   --mb-2: 1rem;
   --mb-4: 2rem;
@@ -31,7 +31,7 @@
   :root {
     --big-font-size: 2.5rem;
     --h2-font-size: 1.5rem;
-    --p-font-size: 1rem;
+    --p-font-size: 1.2rem;
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
   }
@@ -397,7 +397,7 @@ img {
 }
 
 .support__description {
-  font-size: var(--normal-font-size);
+  font-size: var(--p-font-size);
   font-weight: var(--font-light);
   color: #FFFFFF;
   margin-bottom: var(--mb-4);
