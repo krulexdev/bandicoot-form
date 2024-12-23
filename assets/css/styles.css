@@ -15,6 +15,7 @@
   --body-font: "Inter", sans-serif;
   --big-font-size: 2.5rem;
   --h2-font-size: 1.5rem;
+  --p-font-size: 2rem;
   --normal-font-size: 1rem;
   --smaller-font-size: .80rem;
   /*===== Margin =====*/
@@ -30,6 +31,7 @@
   :root {
     --big-font-size: 2.5rem;
     --h2-font-size: 1.5rem;
+    --p-font-size: 1rem;
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
   }
@@ -317,7 +319,7 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: var(--normal-font-size);
+  font-size: var(--p-font-size);
   row-gap: 2rem;
 
 }
@@ -336,6 +338,7 @@ img {
 .quote-form {
   margin-top: 2rem;
   text-align: center;
+  font-size: var(--p-font-size);
   
 }
 .quote-form .section__text {
