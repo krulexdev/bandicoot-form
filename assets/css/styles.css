@@ -309,14 +309,17 @@ img {
   color: inherit;
   
 }
+
 /* ABOUT */
 .bandicoot-form__container {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  row-gap: 2rem;
   text-align: center;
 }
+.section-title {
+  margin-bottom: var(--mb-2);
+
 
 .bandicoot-form__text {
   color: #FFFFFF;
@@ -329,7 +332,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  row-gap: 2rem;
   text-align: center;
 }
 
