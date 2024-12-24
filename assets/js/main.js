@@ -57,7 +57,7 @@ const sr = ScrollReveal({
     // reset: true
 });
 
-sr.reveal('.home__data, .about__img, .bandicoot-form__container, .skills__text', {});
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img', { delay: 400 });
+sr.reveal('.home__data, .about__img, .icon-container, .section__text, .quote__author, .quote__book, .support__description', {});
+sr.reveal('.home__img, .bandicoot-form__text, .about__text, .blurb__img', { delay: 400 });
 sr.reveal('.home__social-icon', { interval: 200 });
 sr.reveal('.quote__data, .blurb__img, .support__input', { interval: 200 });
