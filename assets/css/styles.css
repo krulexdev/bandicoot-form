@@ -1,5 +1,5 @@
 /*==== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -8,11 +8,11 @@
   /*===== Color =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 239;
+  --hue-color: 0;
   --first-color: hsl(239.62, 61.37%, 79.70%);
   --second-color: hsl(206.99, 51.18%, 100%);
   /*===== Typography =====*/
-  --body-font: "Inter", sans-serif;
+  --body-font: "Dosis", sans-serif;
   --big-font-size: 2.5rem;
   --h2-font-size: 1.5rem;
   --p-font-size: 1.2rem;
@@ -375,21 +375,22 @@ img {
   }
 }
 
-/*===== WORKZILLA =====*/
-.workzilla__container {
+/*===== BLURB =====*/
+.blurb__container {
   row-gap: 2rem;
   background-color: #000;
   
 }
-.workzilla__img {
+.blurb__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
+  pointer-events: none;
   overflow: hidden;
 }
-.workzilla__img img {
+.blurb__img img {
   transition: 1s;
 }
-.workzilla__img img:hover {
+.blurb__img img:hover {
   transform: scale(1.1);
 }
 
@@ -511,7 +512,7 @@ img {
     column-gap: 1rem;
     background-color: #000;
   }
-  .workzilla__container {
+  .blurb__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
@@ -578,7 +579,7 @@ img {
     justify-content: center;
     text-align: center;
   }
-  .workzilla__container {
+  .blurb__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
