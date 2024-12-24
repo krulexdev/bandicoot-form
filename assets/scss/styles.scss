@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root{
@@ -9,12 +9,12 @@
     /*===== Color =====*/
     /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
     /* HSL color mode */
-    --hue-color: 239;
+    --hue-color: 0;
     --first-color: hsl(239.62, 61.37%, 79.70%);
     --second-color: hsl(206.99, 51.18%, 100%);
 
     /*===== Typography =====*/
-    --body-font: 'Roboto', sans-serif;
+    --body-font: 'Dosis', sans-serif;
 
     --big-font-size: 2.5rem;
     --h2-font-size: 1.7rem;
@@ -308,8 +308,8 @@ img{
     }
 }
 
-/*===== WORKZILLA =====*/
-.workzilla{
+/*===== BLURB =====*/
+.blurb{
     &__container{
         row-gap: 2rem;
         background-color: #000;
@@ -432,7 +432,7 @@ img{
         text-align: center;
     }
 
-    .workzilla__container{
+    .blurb__container{
         grid-template-columns: repeat(2,1fr);
         column-gap: 2rem;
         padding-top: 2rem;
@@ -503,7 +503,7 @@ img{
             }
         }
     }
-    .workzilla__container{
+    .blurb__container{
         grid-template-columns: repeat(3,1fr);
         column-gap: 2rem;
     }
