@@ -383,7 +383,7 @@ img {
 }
 .blurb__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   pointer-events: none;
   overflow: hidden;
 }
